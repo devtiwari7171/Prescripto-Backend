@@ -46,4 +46,4 @@ app.get("/", (req, res) => {
   res.send("API Working")
 });
 
-module.exports = app
+export default app
